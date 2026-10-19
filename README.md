@@ -4,7 +4,7 @@
 
 
 # catana
-Catana is an interactive Pentest Team bootstrapper for Kali Linux, originally inspired by PimpMyKali, but tailored to the workflows and tooling needs of our Penetration Testing team. It automates the installation and setup of essential offensive security tools, environments and configurations.
+Catana is an interactive Pentest Team bootstrapper for Kali Linux, originally inspired by PimpMyKali, but tailored to the tooling needs of our Penetration Testing team when we boot up a fresh VM. It automates the installation and setup of essential offensive security tools, environments and configurations.
 
 ## Features
 
