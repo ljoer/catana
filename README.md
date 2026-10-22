@@ -9,32 +9,32 @@ Catana is an interactive Pentest Team bootstrapper for Kali Linux, originally in
 ## Features
 
 **System Setup & Configuration**
-- Full system update and upgrade support with reboot prompt
+- System update and upgrade
 - Docker & Docker Compose installation and validation
 
 **Environment Bootstrapping**
 - Python 3 virtual environment creation
 - Pip upgrade within venv
-- Auto-unzipping of the `rockyou.txt` wordlist
-- Adds `GOPATH` and Go-based tooling setup
+- Auto-unzipping of the rockyou.txt wordlist
+- Adds GOPATH and Go-based tooling setup
 
 **Core Tools Installation**
 - Common tools:  
-  - `nmap`, `jq`, `gcc`, `gedit`, `proxychains4`, `rlwrap`, `ncat`, `remmina`, `filezilla`
-- Red team essentials:
-  - `impacket` (via pip in venv)
-  - `PEASS-ng` suite (cloned to `/opt/PEASS-ng`)
-  - `BloodHound` backend via Docker in a dedicated `tmux` session
+  - nmap, jq, gcc, gedit, proxychains4, rlwrap, ncat, remmina, filezilla
+- Other essentials:
+  - impacket (via pip in venv)
+  - PEASS-ng suite (cloned to /opt/PEASS-ng)
+  - BloodHound backend via Docker in a dedicated tmux session
 
 **Recon Tools**
-- `nuclei` for vulnerability scanning
-- `subfinder`, `github-subdomains`, `assetfinder`, `sublist3r`, `dnsx`, `httpx` for subdomain and asset enumeration
-- `feroxbuster` for content discovery
+- nuclei for vulnerability scanning
+- subfinder, github-subdomains, assetfinder, sublist3r, dnsx, httpx for subdomain and asset enumeration
+- feroxbuster for content discovery
 
 **Frontend Security Tools**
 - Node.js tools such as:
-  - `js-beautify` (via npm)
-  - `sourcemapper` (via Go)
+  - js-beautify (via npm)
+  - sourcemapper (via Go)
 
 ## Menu Overview
 
