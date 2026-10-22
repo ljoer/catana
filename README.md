@@ -36,12 +36,6 @@ Catana is an interactive Pentest Team bootstrapper for Kali Linux, originally in
   - js-beautify (via npm)
   - sourcemapper (via Go)
 
-## Menu Overview
-
-<p align="center">
-  <img src="assets/catanaint.png" width="600" alt="Catana main menu" />
-</p>
-
 ## Requirements
 
 - Root privileges (sudo)
